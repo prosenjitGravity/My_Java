@@ -1,4 +1,4 @@
-package Striver_SDE_Sheet;
+package Striver_SDE_Sheet.Arrays;
 
 public class MatrixZero {
     public static void main(String[] args){

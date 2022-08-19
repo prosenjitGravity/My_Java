@@ -2,8 +2,12 @@ package Practice.Recursion;
 
 public class FiboNumber {
     public static void main(String[] args){
-        int req=fibo(50);
-        System.out.println(req);
+        for(int i=0;i<10;i++){
+            System.out.print(fibo(i));
+            if(i<10-1){
+                System.out.print(",");
+            }
+        }
     }
     static int fibo(int n){
         if(n<2){
