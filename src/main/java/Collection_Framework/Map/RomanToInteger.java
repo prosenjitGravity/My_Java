@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class RomanToInteger {
     public static void main(String[] args) {
-        System.out.println(convert("XV"));
+        System.out.println(convert("MCMXCIV"));
 
     }
 
@@ -20,7 +20,7 @@ public class RomanToInteger {
         int sum = 0;
         for (int i = 0; i < value.length(); i++) {
 //            System.out.println(hm.get(value.charAt(i))+" < "+hm.get(value.charAt(i+1)));
-            if (i < value.length() - 1 && hm.get(value.charAt(i)) < hm.get(value.charAt(i + 1))) {
+            if ((i < value.length() - 1) && (hm.get(value.charAt(i)) < hm.get(value.charAt(i + 1)))) {
                 sum += hm.get(value.charAt(i)) - hm.get(value.charAt(i));
                 i++;
             } else {
