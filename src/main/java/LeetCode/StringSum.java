@@ -5,8 +5,9 @@ public class StringSum {
         addition("21","20");
     }
     static void addition(String s1,String s2){
-        int x=Integer.parseInt(s1);
-        int y=Integer.parseInt(s2);
-        System.out.println((x+y));
+        Long x=Long.parseLong(s1);
+        Long y=Long.parseLong(s2);
+        String res= String.valueOf(x+y);
+        System.out.println(res);
     }
 }
