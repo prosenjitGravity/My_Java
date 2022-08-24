@@ -8,12 +8,7 @@ public class Pyramid {
                 System.out.print(" ");
             }
             for (int k=0;k<i;k++){
-                if (k==0||k==3||k==5||k%2==0){
-                    System.out.print(ch+" ");
-                    ch++;
-                }else {
-                    System.out.print(" ");
-                }
+                System.out.print(" *");
             }
             System.out.println();
         }
