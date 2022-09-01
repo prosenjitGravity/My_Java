@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Anagram {
     public static void main(String[] args) {
-        String a = "aact";
-        String b = "catt";
+        String a = "abcd";
+        String b = "bdca";
         boolean isTrue = false;
         boolean visited[] = new boolean[b.length()];
         if (a.length() == b.length()) {

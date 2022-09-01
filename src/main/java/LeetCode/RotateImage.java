@@ -12,11 +12,14 @@ public class RotateImage {
             System.out.println();
         }
         System.out.println("Rotate 90 degree Clock wise");
-        for (int i=0;i<arr.length;i++){
-            for (int j=arr.length-1;j>=0;j--){
-                System.out.print(arr[j][i]+" ");
-            }
-            System.out.println();
+//        for (int i=0;i<arr.length;i++){
+//            for (int j=arr.length-1;j>=0;j--){
+//                System.out.print(arr[j][i]+" ");
+//            }
+//            System.out.println();
+//        }
+        for (int[] i : arr){
+            System.out.println(Arrays.toString(i));
         }
     }
     static int[][] getArr(){
