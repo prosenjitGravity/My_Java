@@ -23,6 +23,7 @@ class GenericsMatrix<T> {
 public class XMatrix {
     public static void main(String[] args) {
         GenericsMatrix<Integer> as = new GenericsMatrix<Integer>(new Integer[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}});
+        System.out.println("The matrix are : ");
         System.out.println(as.CreateMatrix());
     }
 
