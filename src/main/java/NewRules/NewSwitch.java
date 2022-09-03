@@ -11,7 +11,7 @@ public class NewSwitch {
         do {
             System.out.println("choose the option : ");
             option = predator.readLine();
-//            switch (option) {
+//            switch (option) {        // this switch never works because  java version 17 or latest version is required
 //                case "Hello" -> System.out.println("Hello java");
 //                case "sunday" -> System.out.println("weak up 8 A.M in the morning");
 //                case "monday" -> System.out.println("");
