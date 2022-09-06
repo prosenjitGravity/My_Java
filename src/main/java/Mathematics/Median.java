@@ -2,8 +2,8 @@ package Mathematics;
 
 public class Median {
     public static void main(String[] args) {
-        int[] arr1 = new int[]{1,2};
-        int arr2[] = new int[]{3};
+        int[] arr1 = new int[]{1,2,3,0,0};
+        int arr2[] = new int[]{3,5,6};
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1.length - 1; j++) {
                 if (arr1[j] > arr1[j + 1]) {
