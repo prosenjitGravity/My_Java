@@ -1,4 +1,4 @@
-package LTI;
+package OrganizationS_Zone.LTI;
 
 import java.util.LinkedHashSet;
 

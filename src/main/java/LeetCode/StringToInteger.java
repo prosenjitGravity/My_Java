@@ -1,6 +1,7 @@
 package LeetCode;
 
 public class StringToInteger {
+
     public static void main(String[] args){
        System.out.println( toInteger("-42"));
     }

@@ -8,7 +8,7 @@ public class DataSplit {
         Scanner predator=new Scanner(System.in);
         System.out.println("Enter the String  : ");
         String data=predator.nextLine();
-        StringTokenizer st=new StringTokenizer(data,",=.!@#$%^&*()_+<>?:;[]{}|'");
+        StringTokenizer st=new StringTokenizer(data,",=.!@#$%^&*()_ +<>?:;[]{}|'");
         while(st.hasMoreTokens()){
             System.out.println(st.nextToken());
         }
