@@ -1,5 +1,6 @@
 package LeetCode;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class MultiplyString {
@@ -8,9 +9,11 @@ public class MultiplyString {
         System.out.println(multiply(predator.nextLine(),predator.nextLine()));
 
     }
-    static String multiply(String s1,String s2){
-        int data=Integer.parseInt(s1)*Integer.parseInt(s2);
-        return String.valueOf(data);
+    static String multiply(String s1, String s2){
+        BigInteger v1=new BigInteger(s1);
+        BigInteger v2=new BigInteger(s2);
+        String result;
+        return result=v1.multiply(v2).toString();
     }
 }
 //"123456789"

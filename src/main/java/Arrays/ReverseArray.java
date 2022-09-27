@@ -14,6 +14,6 @@ public class ReverseArray {
         }
         Integer[] arr1=new Integer[]{1,2,3,4,5,6,7,8,9};
         Collections.reverse(Arrays.asList(arr1));
-        System.out.println(Arrays.asList(arr1));
+        System.out.println("\n"+Arrays.asList(arr1));
     }
 }

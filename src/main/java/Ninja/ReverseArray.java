@@ -1,4 +1,5 @@
 package Ninja;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -16,6 +17,7 @@ public class ReverseArray {
         Collections.reverse(Arrays.asList(arr));
     }
     static void Reverse(ArrayList<Integer> list,int m){
+
 
     }
 }
