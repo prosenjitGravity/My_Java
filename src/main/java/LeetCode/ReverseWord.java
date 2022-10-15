@@ -5,7 +5,7 @@ public class ReverseWord {
         System.out.println(reverseWord("God Ding"));
     }
     static String reverseWord(String s){
-        String data=" ";
+        String data="";
         for(String i:s.split(" ")){
             StringBuffer buffer=new StringBuffer(i);
             data+=buffer.reverse().toString()+" ";
