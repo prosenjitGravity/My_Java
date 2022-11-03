@@ -5,10 +5,11 @@ public class Prime {
         Scanner sc=new Scanner(System.in);
         System.out.println("How many number you want : ");
         int n=sc.nextInt();
-        for(int i=0;i<=n;i++){
-            System.out.println(i+" : "+IsPrime(i));
-        }
-        isPrime(n);
+//        for(int i=0;i<=n;i++){
+//            System.out.println(i+" : "+IsPrime(i));
+//        }
+        IsPrime(n);
+//        isPrime(n);
 
     }
     static  void isPrime(int n){
