@@ -26,13 +26,24 @@ public class Serialize {                        // input : ["Hello","Prosenjit"]
                                                          // output : ["Hello","Prosenjit"] this is the output
         System.out.println(newData + " data length is : " + newData.length());
         String temp = "";
-        String arr[]=new String[10];
+        String[] arr=new String[100];
         for (int i = 0; i < newData.length(); i++) {
-            while (newData.charAt(i) == '~') {
-                temp += newData.charAt(i);
+            if(newData.charAt(i) == '~') {
+                continue;
             }
-            arr[i]=temp;
+            temp+=newData.charAt(i);
         }
+        System.out.println(temp);
+        String newTemp="";
+        for(int i=0;i<temp.length();i++){
+            if(Character.isDigit(temp.charAt(i))){
+                continue;
+            }else{
+                newTemp+=temp.charAt(i);
+            }
+            arr[i]=newTemp;
+        }
+
         System.out.println(Arrays.asList(arr));
     }
 }
