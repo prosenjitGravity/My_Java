@@ -13,4 +13,7 @@ public class Swapping {
         System.out.println(a+"");
         System.out.println(b+"");
     }
+    static  void swapping(int a,int b){
+
+    }
 }
