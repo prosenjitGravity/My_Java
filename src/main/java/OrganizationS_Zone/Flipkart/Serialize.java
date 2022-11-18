@@ -43,7 +43,6 @@ public class Serialize {                        // input : ["Hello","Prosenjit"]
             }
             arr[i]=newTemp;
         }
-
         System.out.println(Arrays.asList(arr));
     }
 }

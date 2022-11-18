@@ -11,8 +11,9 @@ public class PerfectNumber {
         int sum=0;
         while(i<=n/2){
             if(n%i==0){
+                System.out.print(i+" ");
                 sum=sum+i;
-                System.out.print(sum+" ");
+//                System.out.print(sum+" ");
             }
             i++;
         }
