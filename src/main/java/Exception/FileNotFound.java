@@ -23,7 +23,7 @@ public class FileNotFound {
             }
         }
         catch (MY_Exception e) {
-            System.err.println(e.getMessage());
+            System.err.println("Something went Wrong"+e.getMessage());
         }
     }
 
