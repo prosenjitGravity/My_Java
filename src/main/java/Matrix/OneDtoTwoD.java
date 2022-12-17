@@ -1,4 +1,4 @@
-package Mathematics.Matrix;
+package Matrix;
 
 public class OneDtoTwoD {
     public static void main(String[] args) {

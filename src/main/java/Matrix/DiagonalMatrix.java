@@ -1,4 +1,4 @@
-package Mathematics.Matrix;
+package Matrix;
 
 public class DiagonalMatrix {
     public static void main(String[] args){

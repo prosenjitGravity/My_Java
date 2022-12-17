@@ -1,4 +1,4 @@
-package Mathematics.Matrix;
+package Matrix;
 
 public class RotateClock90 {
     static int[][] getArr(){

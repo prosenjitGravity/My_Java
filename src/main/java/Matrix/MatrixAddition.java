@@ -1,4 +1,4 @@
-package Mathematics.Matrix;
+package Matrix;
 import java.util.Scanner;
 public class MatrixAddition {
     static Scanner predator=new Scanner(System.in);
