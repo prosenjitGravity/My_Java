@@ -2,7 +2,7 @@ package LeetCode;
 
 public class ReverseWord {
     public static void main(String[] args){
-        System.out.println(reverseWord("God Ding"));
+        System.out.println(reverseWord("The Sky is blue"));
     }
     static String reverseWord(String s){
         String data="";
