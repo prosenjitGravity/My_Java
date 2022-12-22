@@ -9,6 +9,7 @@ public class CannotZero {
     public static void main(String[] args){
         System.out.println("Exception");
         int a = 100,b=20;
+        System.out.println();
         try {
             int z=a/b;
             if(z==0) {

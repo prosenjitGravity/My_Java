@@ -5,7 +5,12 @@ interface InA{
         System.out.println("Hello interface");
     }
 }
-public class Interfacedemo implements InA {
+interface InB{
+    static void display(){
+        System.out.println("Hello interface B");
+    }
+}
+public class Interfacedemo implements InA ,InB {
     public static void main(String[] args){
         InA.display();
     }

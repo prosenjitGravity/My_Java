@@ -22,7 +22,7 @@ class allMethods implements Octal{
     public int Binary_to_decimal() {
         int sum=0,power=0;
         while(number!=0){
-            int rem=number%2;
+            int rem=number%10;
             sum+=(rem*Math.pow(2,power++));
             this.number/=10;
         }
@@ -59,7 +59,7 @@ class allMethods implements Octal{
 }
 public class Programming_Calculator {
     public static void main(String[] args){
-        allMethods all=new allMethods(101);
+        allMethods all=new allMethods(011);
         System.out.println(all.Binary_to_decimal());
         System.out.println(all.Binary_to_Octal());
     }
