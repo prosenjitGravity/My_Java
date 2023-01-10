@@ -9,37 +9,41 @@ public class Queue_Fifo {
     static int rear = -1;
 
     static void EnQueue() {
-        if (rear == queue.length-1) {
+        if (rear == queue.length - 1) {
             System.out.println("Queue is OverFlow");
-        }else{
-            front=0;
+        } else {
+            front = 0;
             System.out.println("enter element : ");
             int element = queue[++rear] = predator.nextInt();
-            System.out.println(rear+" position "+element+" element is inserted");
+            System.out.println(rear + " position " + element + " element is inserted");
         }
     }
-    static void DeQueue(){
-        if(front==-1 || front>rear){
+
+    static void DeQueue() {
+        if (front == -1 || front > rear) {
 //            System.out.println("front : "+front+" & rear : "+rear);
             System.out.println("queue is UnderFlow");
-        }else{
-            int delete=queue[front];
-//            System.out.println(front+" index element "+delete+" is  deleted");
-            System.out.println("front : "+front+" & rear : "+rear);
+        } else {
+            int delete = queue[front];
+            System.out.println(front + " index element " + delete + " is  deleted");
+//            System.out.println("front : "+front+" & rear : "+rear);
             front++;
         }
     }
-    static void Monitoring(){
-        if(front==-1 || front>rear){
+
+    static void Monitoring() {
+        if (front == -1 || front > rear) {
             System.out.println("queue is empty");
-        }else{
+        } else {
             System.out.println("----------------- Queue Elements Are --------------------");
-            for(int i=front;i<=rear;i++){
-                System.out.print(queue[i]+" ");
+            System.out.println("front is : " + front);
+            for (int i = front; i <= rear; i++) {
+                System.out.print(queue[i] + " ");
             }
             System.out.println();
         }
     }
+
     static void queue_operation() {
         int operation;
         System.out.println("press 0 to close queue operation");
@@ -60,7 +64,7 @@ public class Queue_Fifo {
                     DeQueue();
                     break;
                 case 3:
-                    Monitoring() ;
+                    Monitoring();
                     break;
                 default:
                     System.out.println("Something went wrong. your " + operation + " option doesn't exist ! into the queue operation");

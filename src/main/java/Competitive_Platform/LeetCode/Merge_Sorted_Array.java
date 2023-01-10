@@ -6,10 +6,12 @@ public class Merge_Sorted_Array {
         println(getmArray());
         System.out.println("\nprint 1st Sorting Array :");
         println(arraySort(getmArray()));
+
         System.out.println("\nprint 2nd Array :");
         println(getnArray());
         System.out.println("\nprint 2nd Sorting Array :");
         println(arraySort(getnArray()));
+
         System.out.println("\nMerging two array");
         println(mergeArray(getmArray(), getnArray()));
         System.out.println("\nAfter merging sort all element ");
