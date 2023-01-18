@@ -3,7 +3,8 @@ package OrganizationS_Zone.TCS;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class RemoveDuplicate {
+public class
+RemoveDuplicate {
     public static void main(String[] args) {
         Scanner predator = new Scanner(System.in);
         String data = predator.nextLine();
