@@ -2,7 +2,7 @@ package Aptitude;
 
 public class StringFibonacci {
     public static void main(String[] args) {
-        System.out.println(fibo_string("beautiful"));
+        System.out.println(fibo_string("transaction"));
     }
 
     static String fibo_string(String data) {

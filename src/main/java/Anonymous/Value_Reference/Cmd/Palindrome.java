@@ -14,6 +14,6 @@ public class Palindrome {
             sum=sum*10+remainder;
             number=number/10;
         }
-        System.out.println(sum);
+        System.out.println(sum==n?+sum+" is Palindrome":+sum+" is not Palindrome");
     }
 }
