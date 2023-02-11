@@ -13,7 +13,6 @@ public class X_pattern {
             System.out.println("print : " + i + "th");
             pattern_x((i * 2) - 1);
         }
-        ;
     }
     static void pattern_x(int n) {
         int c = 0, d = 0;
