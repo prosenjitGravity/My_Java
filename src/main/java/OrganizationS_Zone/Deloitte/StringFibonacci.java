@@ -4,8 +4,8 @@ package OrganizationS_Zone.Deloitte;
   in this code given me the String parameter;
 * INPUT : abcde;
 * OUTPUT : 12a1b1c2d3e5
-           12a1b1c2d3e5;
- 0+1+1+2+3+5=12;
+           0+1+1+2+3+5=12;
+           -+-+-+-+-+-=---
 */
 public class StringFibonacci {
     public static void main(String[] prosenjit){

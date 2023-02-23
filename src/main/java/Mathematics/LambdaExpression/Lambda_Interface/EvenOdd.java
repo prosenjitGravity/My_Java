@@ -1,16 +1,21 @@
 package Mathematics.LambdaExpression.Lambda_Interface;
-
-interface NumericTest{
+import java.util.Scanner;
+interface NumericTest {
     boolean Test(int n);
 }
+
 public class EvenOdd {
-    public static void main(String[] args){
+    static Scanner predator=new Scanner(System.in);
+    public static void main(String[] args) {
+        System.out.println("enter the element : ");
+        int num=predator.nextInt();
         NumericTest nt;
-        nt=(x)->(x%2)==0;
-        if(nt.Test(10)){
+        nt = (x) -> (num % 2) == 0;
+        if (nt.Test(num)) {
             System.out.println("Even");
-        }else{
+        } else {
             System.out.println("Odd");
         }
     }
+
 }

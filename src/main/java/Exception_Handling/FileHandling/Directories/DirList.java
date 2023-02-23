@@ -4,7 +4,7 @@ import java.io.File;
 
 public class DirList {
     public static void main(String[] args) {
-        String dirname = "G:/JavaInterviewDsa/DSA/Interview_Java/src/main/java/Dynamic_Programming";//TabulationFibonacci.java
+        String dirname = "G:/JavaInterviewDsa/DSA/Interview_Java/src/main/java/Dynamic_Programming/";//TabulationFibonacci.java
         File file = new File(dirname);
         if (file.isDirectory()) {
             System.out.println("Directory of  : " + dirname);

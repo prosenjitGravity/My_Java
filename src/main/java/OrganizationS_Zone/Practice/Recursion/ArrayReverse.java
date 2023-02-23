@@ -12,11 +12,10 @@ public class ArrayReverse {
     public static void main(String[] args){
         int arr[]=new int[]{1,2,3,4,5,6,7,8,9};
         printArray(arr);
-        reverse(0,arr.length-1,arr);
-        System.out.println("\nReverse Array Using Recursion : ");
-        printArray(arr);
+        System.out.println("\nReverse Array : ");
+        printArray(reverse(0,arr.length-1,arr));
     }
-    static void reverse(int i,int j,int a[]){
+    static int[] reverse(int i,int j,int a[]){
         while(i<j){
             int temp=a[i];
             a[i]=a[j];
@@ -24,5 +23,6 @@ public class ArrayReverse {
             i++;
             j--;
         }
+        return a;
     }
 }
