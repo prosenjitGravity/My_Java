@@ -1,5 +1,5 @@
 package OrganizationS_Zone.Deloitte;
-
+import java.util.Scanner;
 /*
   in this code given me the String parameter;
 * INPUT : abcde;
@@ -9,7 +9,8 @@ package OrganizationS_Zone.Deloitte;
 */
 public class StringFibonacci {
     public static void main(String[] prosenjit){
-        System.out.println(Create_new_String("abcde"));
+        Scanner predator=new Scanner(System.in);
+        System.out.println(Create_new_String(predator.nextLine()));
     }
     static String Create_new_String(String s){
         int a=0,b=1,sum=0;
