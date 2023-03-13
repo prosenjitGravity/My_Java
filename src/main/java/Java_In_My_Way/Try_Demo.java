@@ -1,9 +1,8 @@
-package In_My_Way;
+package Java_In_My_Way;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 class About {
     String name;

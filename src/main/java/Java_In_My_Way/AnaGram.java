@@ -1,4 +1,4 @@
-package In_My_Way;
+package Java_In_My_Way;
 
 public class AnaGram {
     public static void main(String[] args) {
