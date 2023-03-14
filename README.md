@@ -4,34 +4,7 @@ public class My_Java {<br>
        }<br>
 }
 
-<style>
-
-#java {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    color:white;
-    padding:10px;
-    border-radius:10px;
-
-}
-
-@keyframes gradient {
-	20% {
-		background-position: 10% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-</style>
-# <hr>
-# <div >
-# <h2 id='java' style="color:;text-align:center;">Father of Java :  James Gosling<h2><hr>
-# </div>
+[//]: # ()
 # Compile Java Program: javac My_Java.java
 # Run Java program : java My_Java
 
