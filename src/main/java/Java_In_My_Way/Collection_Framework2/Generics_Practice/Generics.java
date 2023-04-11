@@ -8,6 +8,12 @@ public class Generics<T> {
         array=(T[])new Object[100];
     }
     public void insert(T element){
-        array[size]=element;
+        array[size++]=element;
+    }
+    public int size(){
+        return size;
+    }
+    public T get(int position){
+        return array[position];
     }
 }
