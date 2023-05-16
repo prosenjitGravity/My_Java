@@ -21,7 +21,7 @@ public class BinaryToDecimal {
             binary /= 10;
         }
         System.out.println(b + " Decimal is : " + sum);
-        System.out.print(sum + " Binary is : ");
+//        System.out.print(sum + " Binary is : ");
         DecimalConvertBinary(sum);
     }
 }

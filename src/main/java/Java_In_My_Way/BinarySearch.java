@@ -39,7 +39,6 @@ public class BinarySearch {
             }else {
                 search(arr,target,start,mid-1);
             }
-            start++;
         }
         return false;
     }
