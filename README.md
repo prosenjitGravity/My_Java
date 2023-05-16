@@ -1,8 +1,9 @@
-public class My_Java {<br>
+<pre>public class My_Java {<br>
        public static void main(String[] Prosenjit){<br>
             System.out.println("Welcome to Prosenjit's Gravity");<br>
-       }<br>
+       }
 }
+</pre>
 
 [//]: # ()
 # Compile Java Program: javac My_Java.java
