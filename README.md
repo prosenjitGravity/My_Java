@@ -1,4 +1,4 @@
-<pre>public class My_Java {<br>
+<pre style="color:#00f700; background-color:black">public class My_Java {<br>
        public static void main(String[] Prosenjit){<br>
             System.out.println("Welcome to Prosenjit's Gravity");<br>
        }
