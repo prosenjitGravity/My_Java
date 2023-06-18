@@ -12,18 +12,16 @@ public class Missing_Number {
         }
         return nSum<sum ?sum-nSum:nSum-sum;
     }
-//    static int missingNumber2(int [] nums){
-//        for( int i=1;i<nums.length;i++){
-//            int flag=0;
-//            for(int j=0;j<nums.length-1;j++){
-//                if(nums[j]==i){
-//                    flag=1;
-//                    break;
-//                }
-//            }
-//            if(flag==0){
-//                return i;
-//            }
-//        }
-//    }
+    /*
+    *  static int missingNumber(int[] nums) {
+        int max=nums[0];
+        int sum=0;
+       for(int i=0;i<nums.length;i++){
+           sum+=nums[i];
+           if(max<nums[i]){
+               max=nums[i];
+           }
+       }
+       return ((max*(max+1))/2)-sum;
+    }*/
 }

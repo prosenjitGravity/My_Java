@@ -50,9 +50,9 @@ public class Anagram {
         for(int i=0;i< character.length;i++){
             for(int j=0;j<character.length-i-1;j++){
                 if(character[j]>character[j+1]){
-                    int temp=character[j];
+                    byte temp=character[j];
                     character[j]=character[j+1];
-                    character[j+1]=(byte)temp;
+                    character[j+1]=temp;
                 }
             }
         }

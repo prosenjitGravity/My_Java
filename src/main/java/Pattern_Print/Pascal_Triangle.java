@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Pascal_Triangle {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         BufferedReader predator = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("enter the integer : ");
         int num = Integer.parseInt(predator.readLine());
@@ -17,12 +17,13 @@ public class Pascal_Triangle {
         System.out.println(generate(num));
     }
 
-    static int[][] generate_triangle(int n) {
+    static int[][] generate_triangle(int n) throws InterruptedException {
         int[][] pascal = new int[n][];
         for (int i = 0; i < pascal.length; i++) {
             pascal[i] = new int[i + 1];
             pascal[i][0] = pascal[i][i] = 1;
             for (int j = 1; j < i; j++) {
+//                Thread.sleep(1000);
                 pascal[i][j] = pascal[i - 1][j - 1] + pascal[i - 1][j];
             }
         }
@@ -41,9 +42,10 @@ public class Pascal_Triangle {
         return (List) Arrays.asList(pascal);
     }
 
-    static void println(int[][] arr) {
+    static void println(int[][] arr) throws InterruptedException {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
+                Thread.sleep(1000);
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();

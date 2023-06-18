@@ -10,7 +10,7 @@ interface InB{
         System.out.println("Hello interface B");
     }
 }
-public class Interfacedemo implements InA ,InB {
+public class InterfaceDemo implements InA ,InB {
     public static void main(String[] args){
         InA.display();
     }
