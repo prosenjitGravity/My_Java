@@ -32,7 +32,7 @@ public class Tree {
             int array[]=new int[]{1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
             CreateTree tree=new CreateTree();
             Node root=tree.buildTree(array);
-            System.out.println(root.value);
+            System.out.println("The out put is : "+root.value);
         }
     }
 
