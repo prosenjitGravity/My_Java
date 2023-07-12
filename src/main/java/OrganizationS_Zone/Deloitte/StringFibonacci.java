@@ -28,7 +28,6 @@ public class StringFibonacci {
             x=y;
             y=z;
             newString+=s.charAt(i)+""+x;
-
         }
         return newString;
     }

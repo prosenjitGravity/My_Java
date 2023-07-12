@@ -2,7 +2,7 @@ package Competitive_Platform.LeetCode.Easy;
 
 public class Missing_Number {
     public static void main(String[] args){
-        System.out.println(missingNumber(new int[]{0,1}));
+        System.out.println(missingNumber(new int[]{0,1,3}));
     }
     static int missingNumber(int[] nums){
         int nSum=0;
