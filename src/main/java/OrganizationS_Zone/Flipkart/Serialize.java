@@ -10,6 +10,7 @@ public class Serialize {                        // input : ["Hello","Prosenjit"]
         deserializable(serializable(new String[]{"scaler", "academy"}));
 
     }
+
     static String serializable(String[] arr) {    // input : ["Hello","Prosenjit"]
         String newString = "";                   // output : Hello5~Prosenjit9~;   this is the output
         for (int i = 0; i < arr.length; i++) {
@@ -23,25 +24,25 @@ public class Serialize {                        // input : ["Hello","Prosenjit"]
     }
 
     static void deserializable(String newData) {          // input : Hello5~Prosenjit9~;
-                                                         // output : ["Hello","Prosenjit"] this is the output
+        // output : ["Hello","Prosenjit"] this is the output
         System.out.println(newData + " data length is : " + newData.length());
         String temp = "";
-        String[] arr=new String[100];
+        String[] arr = new String[100];
         for (int i = 0; i < newData.length(); i++) {
-            if(newData.charAt(i) == '~') {
+            if (newData.charAt(i) == '~') {
                 continue;
             }
-            temp+=newData.charAt(i);
+            temp += newData.charAt(i);
         }
         System.out.println(temp);
-        String newTemp="";
-        for(int i=0;i<temp.length();i++){
-            if(Character.isDigit(temp.charAt(i))){
+        String newTemp = "";
+        for (int i = 0; i < temp.length(); i++) {
+            if (Character.isDigit(temp.charAt(i))) {
                 continue;
-            }else{
-                newTemp+=temp.charAt(i);
+            } else {
+                newTemp += temp.charAt(i);
             }
-            arr[i]=newTemp;
+            arr[i] = newTemp;
         }
         System.out.println(Arrays.asList(arr));
     }

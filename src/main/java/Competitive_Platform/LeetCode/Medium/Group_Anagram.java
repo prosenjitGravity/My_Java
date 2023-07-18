@@ -13,7 +13,7 @@ public class Group_Anagram {
             char[] character = s.toCharArray();
             Arrays.sort(character);
             String sorted_character = String.valueOf(character);
-            System.out.println("element sorting : "+sorted_character);
+            System.out.println("element sorting : " + sorted_character);
             if (!anagram.containsKey(sorted_character)) {
                 anagram.put(sorted_character, new ArrayList<>());
             }
