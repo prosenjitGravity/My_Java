@@ -10,6 +10,7 @@ public class StringDuplicate_Character {
     public static void main(String[] args) throws IOException {
         System.out.println("enter the word : ");
         String s = predator.readLine();
+        removeDuplicate(s);
         System.out.println(removeDuplicate(s));
     }
 

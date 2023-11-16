@@ -8,7 +8,7 @@ public class String_Sorting {
         System.out.println("All companies");
         System.out.println(sorting(new String[]{"Google","Microsoft","Atlassian",
                                                 "IBM","Accenture","Zycus","TCS",
-                                                "Wipro","Infosys","Redhat","Meta",
+                                                "Wipro","Infosys","RedHat","Meta",
                                                 "PWC","Amazon","Oracle","Flipkart",
                                                 "Tech Mahindra","Morgan Stanley",
                                                 "ServiceNow","Goldman Sachs"
