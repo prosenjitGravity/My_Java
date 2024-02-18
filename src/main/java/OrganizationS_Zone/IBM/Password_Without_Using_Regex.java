@@ -25,7 +25,7 @@ public class Password_Without_Using_Regex {
         return !(pass.contains(" ")) ? true : false;
     }
 
-    static boolean checkNumber(String pass) {
+    static boolean checkNumber(String pass)  {
         boolean number = false;
         for (int i = 0; i <= 9; i++) {
             if (pass.contains(Integer.toString(i))) {

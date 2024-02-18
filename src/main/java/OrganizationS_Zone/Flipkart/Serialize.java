@@ -1,14 +1,11 @@
 package OrganizationS_Zone.Flipkart;
 
 import java.util.Arrays;
-import java.util.Locale;
-
 public class Serialize {                        // input : ["Hello","Prosenjit"]
     //
     public static void main(String[] args) {
         System.out.println(serializable(new String[]{"scaler", "academy"}));
         deserializable(serializable(new String[]{"scaler", "academy"}));
-
     }
 
     static String serializable(String[] arr) {    // input : ["Hello","Prosenjit"]

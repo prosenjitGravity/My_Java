@@ -48,7 +48,7 @@ public class Kaprekar_Constant_2 {
     static int Is_Keprekar_Constant(int org_value) {
         while (result != 6174) {
             result = (Descending_Order(converting(org_value)) - Ascending_Order(converting(org_value)));
-            System.out.println(Descending_Order(converting(org_value)) +" - "+Ascending_Order(converting(org_value))+" result is : " + result);
+            System.out.println(Descending_Order(converting(org_value)) + " - " + Ascending_Order(converting(org_value)) + " result is : " + result);
             Is_Keprekar_Constant(result);
         }
         return result;
