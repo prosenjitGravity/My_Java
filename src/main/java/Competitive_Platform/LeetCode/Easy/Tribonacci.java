@@ -4,7 +4,8 @@ public class Tribonacci {
     public static void main(String[] args) {
         tribonacci_series(100);
         System.out.println();
-        System.out.println(tribonacci(100));
+        tribonacci(10);
+        System.out.println(tribonacci(10));
     }
 
     static public void tribonacci_series(int n) {
@@ -34,6 +35,7 @@ public class Tribonacci {
         int sum = 0;
         for (int i = 3; i <= n; i++) {
             sum = a + b + c;
+            System.out.println("sum : "+a);
             a = b;
             b = c;
             c = sum;
