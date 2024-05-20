@@ -1,6 +1,7 @@
 package Java_In_My_Way._21_Days_Coding_Habit.Practice.LinkedList;
 
-public class LinkedList {
+public class
+LinkedList {
     private Node head;
     private Node tail;
     public int size;
